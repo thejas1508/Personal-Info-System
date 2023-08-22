@@ -1,0 +1,37 @@
+<!DOCTYPE html> /* for front end*/
+<html>
+<head>
+	<title>ID details</title>
+	<style>
+	body{
+		background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80");
+			background-size: cover;
+
+}
+.button {
+  background-color: grey;
+  border: 3px;
+  border-color: black;
+color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<form action = "id_details.php" method = "POST">
+	<center><input type="text" name= "name" placeholder= "name" /><br/><br/></center>
+		<center><input type="text" name= "department" placeholder= "department" /><br/><br/></center>
+		<center><input type="Date" name= "DOB" placeholder= "DOB" /><br/><br/></center>
+		<center><input type="text" name= "phone_number" placeholder= "phone_number" /><br/><br/></center>
+		<center><input type="text" name= "Blood_group" placeholder= "Blood_group" /><br/><br/></center>
+		<center><input type="text" name= "Address" placeholder= "Address" /><br/><br/></center>
+		<center><center><button class="button">SUBMIT</button></center>
+	</form>
+</body>
+</html>
